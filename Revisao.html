@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisao</title>
+</head>
+<body>
+    <ol>
+        <li>Cite 3 tags fundamentais do HTML</li>
+            <p>--Tags  &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;</p><br>
+        <li>Quais tipos de listas existem no html?</li>
+            <p>--Listas ordenadas e não ordenadas</p><br>
+        <li>HTML é uma linguagem de programação? Explique:</li>
+            <p>--Não. Assim como em sua definição HTML é uma linguagem de hiper marcação de texto.</p><br>
+        <li>Foi solicitado que você altere o título da página. Qual tag devemos utilizar dentro do &lt;head&gt;?</li>
+            <p>--Para isso utilizamos a tag &lt;title&gt;</p><br>
+        <li>Crie uma tabela com 3 colunas: Nome; Telefone; Email. Adicione mais 1 linha com dados: João, 82 00000000 e joao@email.com</li>
+            <table border="5px">
+                <thead>
+                    <tr>
+                        <th>Nome:</th>
+                        <th>Email:</th>
+                        <th>Telefone:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>82 00000000</td>
+                        <td>joao@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table> <br><br>
+        <li>Cite 2 tipos (input type=””) adicionados no HTML 5.</li>
+            <p>--Dentre os novos tipos de input estão &lt;color&gt;, &lt;datetime-local&gt;, &lt;number&gt;, &lt;range&gt;, &lt;search&gt;, &lt;week&gt;</p><br>
+        <li>Quais principais diferenças podemos apontar entre HTML 4 e HTML 5?</li>
+            <p>--Melhorias na compatibilidade, semântica e arquivos multimídia, adição de novas tags de “Layout”, “Media” e de tags estruturais dentre outros.</p><br>
+        <li>Qual a utilidade do DOCTYPE.</li>
+            <p>--O doctype serve para indicar o tipo de documento que está sendo rodado, assim como a versão dele, sem ele podem ocorrer erros ao rodar um documento html em um navegador.</p><br>
+        <li>Os cabeçalhos podem ir de &lt;h1&gt; até &lt;h?&gt;. Qual diferença?</li>
+            <p>--As tags &lt;h?&gt; servem para demonstrar a importância hierárquica de um texto no arquivo html, ao rodar o arquivo percebe-se que os &lt;h?&gt; são exibidos em fontes diferentes dependendo do número sendo &lt;h1&gt; o de maior destaque e &lt;h6&gt; o de menor destaque.</p><br>
+        <li>Conteúdos como &lt;p&gt;, &lt;img&gt; devem ser inseridos no &lt;head&gt; ou &lt;body&gt;? Explique.</li>
+            <p>--Devem ser inseridos no &lt;body&gt; que é o corpo da página e a parte exibida ao se rodar um arquivo html, o &lt;head&gt; normalmente serve para metadados ou códigos css e javascript menores</p><br>
+        <li>Podemos enviar 2 tipos de métodos (Verbos HTTP) no form (<form method=”?”>). Cite os 2 tipos e explique as diferenças.</li>
+            <p>--Podemos utilizar o método get ou post para enviar um formulário, a principal diferença entre eles está na segurança, tendo em vista que no método get as informações enviadas no form ficam visíveis na url do site enquanto no método post elas não ficam visíveis na url.</p><br>
+        <li>Cria uma lista ordenada onde cada item deve ser um link (&lt;a&gt;) para: Ex: 1. Google | 2. Facebook | 3. Youtube (Deve abrir em uma nova página ao ser clicado)</li>
+            <ol>
+                <li><a href="https://www.google.com.br/">Google</a></li>
+                <li><a href="https://pt-br.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ol> <br><br>
+        <li>Crie um formulário para autenticação onde: 1. O usuário deverá informar o e-mail e senha | 2. Deverá constar um botão de “Entrar”</li>
+            <form action="Revisao.html" method="post">
+                <input type="email" value="Digite seu email"><br>
+                <input type="password"><br>
+                <input type="submit" value="Entrar">
+            </form>
+</body>
+</html>
